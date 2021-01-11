@@ -17,9 +17,10 @@ public class WS04LogicalOperators {
         System.out.println("x > 50 -->  " + (x > 50));
         System.out.println("x >= 50 --> " + (x >= 50));
 
-        boolean comparison = false;
-        boolean comparison2 = false;
-        boolean comparison3 = false;
+        boolean comparison;
+        boolean comparison2;
+        boolean comparison3;
+        
         comparison = x != 100;
         System.out.println("comparison -> " + comparison);
 
@@ -37,23 +38,12 @@ public class WS04LogicalOperators {
         System.out.println("not comparison --> " + !comparison);
         System.out.println("comparison2 -> " + comparison2);
 
-        System.out.println("logical AND (&&)");
-        comparison3 = comparison && comparison2;
-        System.out.println("comparison1 ^ comparison2 --> " + (comparison3));
-        comparison3 = comparison || comparison2;
-        System.out.println("comparison1 v comparison2 --> " + (comparison3));
-
-        System.out.println("not comparison --> " + !comparison);
-        comparison = false;
-        System.out.println("not comparison --> " + !comparison);
-        comparison = true;
-        System.out.println("not comparison --> " + !comparison);
         
  
         System.out.println("");
         System.out.println("Dayana Calderón TRUTH TABLE");
         System.out.println("===========================");
-        System.out.println("   p        q      (p ^ q)" );
+        System.out.println("  p         q      (p ^ q)" );
         System.out.println("===========================");
         boolean p; 
         boolean q;
@@ -76,6 +66,6 @@ public class WS04LogicalOperators {
       
         System.out.println("===========================");
     }
-    
-    
+  
 }
+
