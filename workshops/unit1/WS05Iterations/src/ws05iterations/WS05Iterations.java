@@ -26,7 +26,7 @@ public class WS05Iterations {
         for(int j=1; j<stop;j+=2){
             System.out.println("odd number -->  " + j);  
         }
-        System.out.println("Multiplication Tables : 7");
+        System.out.println("==== Multiplication Tables : 7 ====");
         int top=12;
         int product=0;
         int table=9;
