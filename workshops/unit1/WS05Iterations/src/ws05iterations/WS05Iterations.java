@@ -28,8 +28,8 @@ public class WS05Iterations {
         }
         System.out.println("==== Multiplication Tables : 7 ====");
         int top=12;
-        int product=0;
-        int table=9;
+        int product;
+        int table=7;
         for (int j = 1; j <= top; j++){
             product = table *j;
             System.out.println("7 * " + j + " = " + product);
