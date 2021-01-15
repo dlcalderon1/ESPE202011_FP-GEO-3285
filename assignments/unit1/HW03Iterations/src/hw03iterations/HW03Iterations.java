@@ -25,7 +25,7 @@ public class HW03Iterations {
         }
         System.out.println(" ");
         System.out.println("-------------------------");
-        System.out.println("POWER TABLE IN BASE: 10");
+        System.out.println("POWER TABLE IN BASE: 9");
         System.out.println("-------------------------");
         
         int máx=9;
