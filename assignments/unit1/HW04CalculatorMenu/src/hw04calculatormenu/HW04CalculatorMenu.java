@@ -1,10 +1,12 @@
-package hw04exponentmenu;
+package hw04calculatormenu;
 
 import java.util.Scanner;
 
-public class HW04ExponentMenu {
+public class HW04CalculatorMenu {
+
     
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner (System.in);
         boolean mainLoop = true;
         int option;
@@ -63,8 +65,8 @@ public class HW04ExponentMenu {
                      float total2;
                      System.out.printf("enter radio --> ");
                      radio = scanner.nextInt();
-                     squareRadio = (float) Math.pow(radio, pi);
-                     total2 = radio * squareRadio;
+                     squareRadio = (float) Math.pow(radio, 2);
+                     total2 = pi * squareRadio;
                      System.out.println("The circle area is --> " +total2);
                      break;
                  case 5:
@@ -79,13 +81,3 @@ public class HW04ExponentMenu {
         } while (option < 6);
     }
 }
-            
-            
-
-        
-
-    
-       
-    
-    
-
