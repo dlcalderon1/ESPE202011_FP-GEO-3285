@@ -41,8 +41,8 @@ public class BasicOperations {
         multiplicator = 11;
         dividend = 110;
         divisor = 4;
-        dividend2 = 5;
-        divisor2 = 2;
+        dividend2 = 2;
+        divisor2 = 5;
         
       //ADDITION:
         sum=addend1 + addend2;
@@ -78,7 +78,7 @@ public class BasicOperations {
          remainder=dividend2 % divisor2;
         System.out.println("The remainder of " + dividend2 + " % " + divisor2 +
                 " is equal to --> " + remainder);
-      
+        
     }
     
 }
