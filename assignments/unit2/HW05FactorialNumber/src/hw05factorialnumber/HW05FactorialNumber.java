@@ -1,8 +1,8 @@
-package hw01factorialnumber;
+package hw05factorialnumber;
 
 import java.util.Scanner;
 
-public class HW01FactorialNumber {
+public class HW05FactorialNumber {
 
     public static void main(String[] args) {
 
