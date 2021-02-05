@@ -73,7 +73,7 @@ public class HW07Functions {
 
     public static int multiplicationTable(int number, int multiplier) {
         int product;
-        product = number * 1;
+        product = number * multiplier;
 
         return product;
     }
