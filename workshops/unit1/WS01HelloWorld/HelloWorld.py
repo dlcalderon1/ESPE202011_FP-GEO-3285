@@ -11,3 +11,4 @@ sum= float(addend1) + float(addend2)
 print("The sum of {0} and {1} is {2}" .format(addend1, addend2, sum))
 
 print("The sum is %.1f" %(float(input("Enter first number: "))+float(input("Enter second number: "))))
+

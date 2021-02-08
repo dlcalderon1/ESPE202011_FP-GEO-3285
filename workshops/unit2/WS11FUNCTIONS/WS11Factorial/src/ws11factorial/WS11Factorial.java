@@ -1,8 +1,8 @@
-package ws011factorial;
+package ws11factorial;
 
 import java.util.Scanner;
 
-public class WS011Factorial {
+public class WS11Factorial {
 
     public static void main(String[] args) {
         System.out.println("|   FACTORIAL   |" + "\n");
