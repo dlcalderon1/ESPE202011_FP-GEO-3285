@@ -6,24 +6,24 @@ public class WS11Factorial {
 
     public static void main(String[] args) {
         System.out.println("|   FACTORIAL   |" + "\n");
-        System.out.printf("Enter a number to know the factorial: ");
-        Scanner keyboard = new Scanner(System.in);
-        int number = keyboard.nextInt();
-        int factorial = 0;
-        factorial = factorial (number);
-        System.out.println("The factorial of " + number + " is : " + factorial);
+       int number = 5;
+        int fact = 0;
+        fact = factorial(number);
+        System.out.println("factorial of " + number + " is equal to -> " + fact);
 
     }
 
-    public static int factorial(int number) {
-        if (number < 0) {
+    public static int factorial(int n) {
+        if (n < 0) {
             return -1;
         } else {
-            if (number == 0) {
+            if (n == 0) {
                 return 1;
+            } else {
+                return (n * factorial(n - 1));
             }
-            return (number * factorial(number - 1));
         }
     }
+
 }
         
