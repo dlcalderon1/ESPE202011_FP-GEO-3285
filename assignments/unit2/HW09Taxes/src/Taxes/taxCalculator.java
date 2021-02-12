@@ -29,11 +29,11 @@ public class taxCalculator {
             rentalValue = value1 * 0.10;
             System.out.println("The tax on the basic fraction is $ 154");
             System.out.println("The tax on the excess fraction is $ " + rentalValue);
-        } else if (value1 > 17854 &&value1 <= 21442) {
+        } else if (value1 > 17854 && value1 <= 21442) {
             rentalValue = value1 * 0.12;
             System.out.println("The tax on the basic fraction is $ 511");
             System.out.println("The tax on the excess fraction is $ " + rentalValue);
-        } else if (value1 > 21442 &&value1 <= 42874) {
+        } else if (value1 > 21442 && value1 <= 42874) {
             rentalValue = value1 * 0.15;
             System.out.println("The tax on the basic fraction is $ 941");
             System.out.println("The tax on the excess fraction is $" + rentalValue);
@@ -65,7 +65,7 @@ public class taxCalculator {
     public void showIVA() {
         ivaTax = value2 * 0.12;
         System.out.println("The IVA is: " + ivaTax);
-        System.out.println("TOTAL --> " +value2+ " + " + ivaTax + " = " + (value2 + ivaTax));
+        System.out.println("TOTAL --> " + value2 + " + " + ivaTax + " = " + (value2 + ivaTax));
     }
 
     public void enterDataForeignExchange() {
