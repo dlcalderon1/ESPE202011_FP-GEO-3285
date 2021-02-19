@@ -1,6 +1,6 @@
-package universitycarrerfinder;
+package universitycarrersfinder;
 
-public class UniversityCarrerFinder {
+public class UniversityCarrersFinder {
 
     public static void main(String[] args) {
         System.out.println("--- THE CARRERS WITH THE MOST FUTURE "
@@ -9,8 +9,8 @@ public class UniversityCarrerFinder {
             "Nursing", "Medicine", "Math", "Physiotherapy",
             "Occupational therapy", "Engineering in Geospatial Technologies",
             "Marketing", "Optics and Optometry", "Law", "Technical architecture",
-        "Informatics Engineering", "Mechanical Engineering", "Psychology", 
-        "Civil Engineering", "Pharmacy", "Mechanical Engineering"};
+            "Informatics Engineering", "Mechanical Engineering", "Psychology",
+            "Civil Engineering", "Pharmacy", "Mechanical Engineering"};
 
         for (String carrers : universityCareers) {
             System.out.println("Career in " + carrers);
@@ -18,11 +18,8 @@ public class UniversityCarrerFinder {
 
     }
 
-    
 //        final float pi = 3.14f; 
 //        final float g = 9.8f;
 //        System.out.println("pi --> " + pi);
 //        System.out.println("g --> " + g);
-}
-
 }
