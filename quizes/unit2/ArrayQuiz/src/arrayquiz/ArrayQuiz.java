@@ -44,12 +44,9 @@ public class ArrayQuiz {
         percentage[15] = 0.21;
         
 
-        for (String names : candidatesNames) {
-            System.out.println("The candidate -> " + names);
-        }
-
-        for (int i = 0; i < percentage.length; i++) {
-            System.out.println("The candidate " + (i + 1) + " -> " + percentage[i] + " %");
+        for (int i=0; i<16; i++){
+            System.out.println("The candidate " +candidatesNames[i] + " had " 
+                    + percentage[i] + " %");
         }
 
     }
