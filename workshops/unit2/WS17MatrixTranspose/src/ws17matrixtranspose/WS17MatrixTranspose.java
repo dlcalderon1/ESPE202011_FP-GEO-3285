@@ -1,11 +1,9 @@
-package WS17TransposeMatrix;
-
+package ws17matrixtranspose;
 import java.util.Scanner;
-
-public class WS17TransposeMatrix {
+public class WS17MatrixTranspose {
 
     public static void main(String[] args) {
-
+      
         int[][] a;
         int[][] b;
         int[][] t;
@@ -158,3 +156,6 @@ public class WS17TransposeMatrix {
         System.out.println("");
     }
 }
+    
+    
+
