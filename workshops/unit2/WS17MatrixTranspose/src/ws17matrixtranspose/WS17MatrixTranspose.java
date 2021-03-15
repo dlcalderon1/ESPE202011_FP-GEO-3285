@@ -29,7 +29,7 @@ public class WS17MatrixTranspose {
         System.out.println("------ MATRIX ELEMENTS -------");
 
         a = readMatrixElements(m, n, "A", data);
-        b = readMatrixElements(m, n, "A", data);
+        b = readMatrixElements(m, n, "B", data);
 
         for (int tab = 0; tab <= n / 2; tab++) {
             System.out.println("\t");
