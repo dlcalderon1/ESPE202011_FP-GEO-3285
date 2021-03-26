@@ -2,7 +2,6 @@ package search;
 
 import ec.edu.espe.BasicSearch;
 import java.util.Scanner;
-
 public class SearchDeclaration {
 
     public static void main(String[] args) {
